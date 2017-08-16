@@ -1,6 +1,6 @@
 
 CREATE DATABASE burgers;
-USE quotes_db;
+USE burgerlist_db;
 
 CREATE TABLE burgerlist
 (
