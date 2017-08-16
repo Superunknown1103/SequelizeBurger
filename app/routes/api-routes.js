@@ -3,7 +3,7 @@ var Burger = require('../models/burger.js');
 module.exports = function(app){
 
   // add a burger, api route defined below
-  app.post('/api/new'), function(req, res){
+  app.post('./api/new'), function(req, res){
     console.log(req.body);
       Burger.create({
         burger: req.body.burger,
