@@ -1,4 +1,3 @@
-
 CREATE DATABASE burgers;
 USE burgerlist_db;
 
