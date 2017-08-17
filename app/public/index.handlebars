@@ -26,8 +26,9 @@
         burger: $('#burger').val().trim(),
         devoured: $('#devoured').val().trim(),
       }
+      console.log(newBurger);
 
-    $.post('/api/new/', newBurger)
+    $.post('/api/new', newBurger)
     .done(function(data){
       console.log(data);
     });
