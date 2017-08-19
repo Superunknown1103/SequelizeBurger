@@ -17,14 +17,16 @@
             <label>Eat?</label>
             <input type="boolean" id="devoured">
         </div>
-        <button type="submit" id="add-btn">Submit your burger</button>
+        <button type="submit" id="add-btn" style="color: black;">Submit Your Burger</button>
+        <span class="burger-container">
+					</span>
     </form>
     <script>
     $('#add-btn').on('click', function(event){
       event.preventDefault();
       var newBurger = {
         burger: $('#burger').val().trim(),
-        devoured: $('#devoured').val().trim(),
+        devoured: $('#devoured').val().trim()
       }
       console.log(newBurger);
 
